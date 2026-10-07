@@ -1,0 +1,19 @@
+REBEL INK — WEB SERVICE ONLY (NO DATABASE)
+==========================================
+
+1. Push files to GitHub (server.js, package.json, public/ at root).
+2. Render → New → Web Service.
+3. Build: npm install
+4. Start: npm start
+5. Free plan.
+6. Deploy.
+7. Open Logs → find /admin-setup?token=... and create admin.
+
+OPTIONAL (recommended):
+  Environment → add JWT_SECRET and ADMIN_SETUP_TOKEN
+  (long random strings) so they stay the same after restarts.
+
+WARNING:
+  Free services sleep after ~15 min idle.
+  All data is lost on sleep / restart / redeploy.
+  This is expected with no database.

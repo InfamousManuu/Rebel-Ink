@@ -1,0 +1,21 @@
+{
+  "name": "rebel-ink-tattoos",
+  "version": "3.0.0-memory",
+  "private": true,
+  "description": "Rebel Ink Tattoos client portal — Web Service only (in-memory storage, no database)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
